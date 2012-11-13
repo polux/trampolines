@@ -1,0 +1,3 @@
+name: trampolines
+description: A library for trampolining tail calls
+version: 0.0.1
