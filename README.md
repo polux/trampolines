@@ -32,7 +32,7 @@ main() {
 ## Try it!
 
 ```
-git clone git@github.com:polux/trampolines.git
+git clone https://github.com/polux/trampolines.git
 cd trampolines
 pub install
 dart example/demo.dart
