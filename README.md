@@ -24,7 +24,7 @@ main() {
   try {
     print(Defs.badeven(100000));
   } on StackOverflowError catch (_) {
-    print("You should have used dart-trampolines!");
+    print("You should have used trampolines!");
   }
 }
 ```
@@ -32,8 +32,8 @@ main() {
 ## Try it!
 
 ```
-git clone https://code.google.com/p/dart-trampolines/
-cd dart-trampolines
+git clone git@github.com:polux/trampolines.git
+cd trampolines
 pub install
 dart example/demo.dart
 ```

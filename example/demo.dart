@@ -18,6 +18,6 @@ main() {
   try {
     print(Defs.badeven(100000));
   } on StackOverflowError catch (_) {
-    print("You should have used dart-trampolines!");
+    print("You should have used trampolines!");
   }
 }
